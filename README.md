@@ -7,7 +7,7 @@ Stephen Eidson's vscode markdown suite which could one day be generic enough to 
 
 This is the initial release, which is really just serving as a hello-world in extension authoring.  In its current form, this extension merely opens a folder from a hard-coded location.
 
-![feature X](images/open-open-mos-volume.png)
+![feature X](images/open-mos-volume.png)
 
 <!-- ## Requirements
 

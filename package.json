@@ -4,6 +4,7 @@
     "description": "Stephen Eidson's personal markdown suite which could one day be generic enough to be of use for other users than just himself",
     "version": "0.0.1",
     "publisher": "stepheneidson",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.28.0"
     },
