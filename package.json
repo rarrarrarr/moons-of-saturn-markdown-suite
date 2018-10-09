@@ -11,14 +11,24 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:mos.createNewMoS",
+        "onCommand:mos.createNewMdFldr",
+        "onCommand:mos.openMoSVolume"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.sayHello",
-                "title": "Hello World"
+                "command": "mos.createNewMoS",
+                "title": "Create new Moon of Saturn (MoS)"
+            },
+            {
+                "command": "mos.createNewMdFldr",
+                "title": "Create new `.md.fldr` in the current Moon of Saturn (MoS)"
+            },
+            {
+                "command": "mos.openMoSVolume",
+                "title": "Open the Moon of Saturns (MoS) Document Folder"
             }
         ]
     },
@@ -35,5 +45,9 @@
         "tslint": "^5.8.0",
         "@types/node": "^8.10.25",
         "@types/mocha": "^2.2.42"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rarrarrarr/moons-of-saturn-markdown-suite.git"
     }
 }
