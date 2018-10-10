@@ -8,7 +8,7 @@ import { Mos } from "./mos";
 // your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
 
-    
+
     // Use the console to output diagnostic information (console.log) and errors (console.error)
     // This line of code will only be executed once when your extension is activated
     console.log('Congratulations, your extension "moons-of-saturn-markdown-suite" is now active!');
@@ -23,10 +23,24 @@ export function activate(context: vscode.ExtensionContext) {
     });
 
     let createNewMdFldrCommand = vscode.commands.registerCommand('mos.createNewMdFldr', async () => {
-        
-        const fileName = await vscode.window.showInputBox({prompt: ''})
 
-        if (!fileName){
+        const fileName = await vscode.window.showInputBox(
+            {
+                placeHolder: 'camelCaseNamesAreBest',
+                prompt: 'Name for the new markdown document',
+                validateInput: function validate(name: string): string | null {
+                    if (!name) {
+                        return 'Name is required';
+                    }
+                    if (name.includes(' ')) {
+                        return 'Spaces are not allowed';
+                    }
+                    // no errors
+                    return null;
+                },
+            });
+
+        if (!fileName) {
             console.info('user closed filename input');
             return;
         }

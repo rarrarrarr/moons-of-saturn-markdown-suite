@@ -5,15 +5,15 @@ Stephen Eidson's vscode markdown suite which could one day be generic enough to 
 
 ## Features
 
-This is the initial release, which is really just serving as a hello-world in extension authoring.  In its current form, this extension merely opens a folder from a hard-coded location.
+### Open your MoS notes in a new vscode instance
+![Open the MoS Document Folder](images/open-mos-volume.png)
 
-![feature X](images/open-mos-volume.png)
+### Create a new document in the current MoS
 
-<!-- ## Requirements
+![Create new md Document](images/new-md-file.gif)
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
-## Extension Settings
+<!-- ## Extension Settings
 
 Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
 
@@ -24,12 +24,15 @@ This extension contributes the following settings:
 * `myExtension.enable`: enable/disable this extension
 * `myExtension.thing`: set to `blah` to do something -->
 
-<!-- ## Known Issues
-
-   -->
-
 ## Release Notes
 
+### 0.0.3
+
+Add validation to user input for new md file creation
+
+### 0.0.2
+
+Add ability to create new `${filename}.md.fldr/${filename}.md` in the current MoS
 
 ### 0.0.1
 
