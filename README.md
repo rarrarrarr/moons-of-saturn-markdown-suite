@@ -12,6 +12,9 @@ Stephen Eidson's vscode markdown suite which could one day be generic enough to 
 
 ![Create new md Document](images/new-md-file.gif)
 
+### Start a new sprint by creating a new MoS
+
+![Create new MoS](images/new-mos.png)
 
 <!-- ## Extension Settings
 
@@ -25,6 +28,12 @@ This extension contributes the following settings:
 * `myExtension.thing`: set to `blah` to do something -->
 
 ## Release Notes
+
+### 0.0.4
+
+* Add ability to create new `*.md.fldr` in the actual current MoS, instead of just a hard-coded path.  -_-'
+* A new `*.md` file will now have the appropriate title, presented in Title Case.
+* Add ability to start a new sprint by creating a new MoS, which determines what the next MoS should be.
 
 ### 0.0.3
 
