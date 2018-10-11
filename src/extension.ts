@@ -19,7 +19,8 @@ export function activate(context: vscode.ExtensionContext) {
     let createNewMoSCommand = vscode.commands.registerCommand('mos.createNewMoS', () => {
         // The code you place here will be executed every time your command is executed
         // Display a message box to the user
-        vscode.window.showInformationMessage('Create new MoS');
+        const mos = new Mos();
+        mos.createNewMoS();        
     });
 
     let createNewMdFldrCommand = vscode.commands.registerCommand('mos.createNewMdFldr', async () => {

@@ -2,7 +2,7 @@
     "name": "moons-of-saturn-markdown-suite",
     "displayName": "Moons of Saturn Markdown Suite",
     "description": "Stephen Eidson's personal markdown suite which could one day be generic enough to be of use for other users than just himself",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "stephen-eidson",
     "license": "MIT",
     "engines": {
@@ -50,5 +50,8 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/rarrarrarr/moons-of-saturn-markdown-suite.git"
+    },
+    "dependencies": {
+        "change-case": "^3.0.2"
     }
 }
