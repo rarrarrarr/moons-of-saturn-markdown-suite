@@ -14,7 +14,7 @@ Stephen Eidson's vscode markdown suite which could one day be generic enough to 
 
 ### Start a new sprint by creating a new MoS
 
-![Create new MoS](images/new-mos.png)
+![Create new MoS](images/create-new-mos.png)
 
 <!-- ## Extension Settings
 
