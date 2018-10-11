@@ -29,6 +29,10 @@ This extension contributes the following settings:
 
 ## Release Notes
 
+### 0.0.5
+
+* Fix broken README.md img uri
+
 ### 0.0.4
 
 * Add ability to create new `*.md.fldr` in the actual current MoS, instead of just a hard-coded path.  -_-'
