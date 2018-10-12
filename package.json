@@ -2,12 +2,13 @@
     "name": "moons-of-saturn-markdown-suite",
     "displayName": "Moons of Saturn Markdown Suite",
     "description": "Stephen Eidson's personal markdown suite which could one day be generic enough to be of use for other users than just himself",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "stephen-eidson",
     "license": "MIT",
     "engines": {
         "vscode": "^1.28.0"
     },
+    "icon": "images/mos-icon-256x256.png",
     "categories": [
         "Other"
     ],
