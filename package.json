@@ -2,7 +2,7 @@
     "name": "moons-of-saturn-markdown-suite",
     "displayName": "Moons of Saturn Markdown Suite",
     "description": "Stephen Eidson's personal markdown suite which could one day be generic enough to be of use for other users than just himself",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "publisher": "stephen-eidson",
     "license": "MIT",
     "engines": {
@@ -42,11 +42,11 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.21",
+        "@types/mocha": "^2.2.42",
+        "@types/node": "^8.10.38",
         "tslint": "^5.8.0",
-        "@types/node": "^8.10.25",
-        "@types/mocha": "^2.2.42"
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.22"
     },
     "repository": {
         "type": "git",

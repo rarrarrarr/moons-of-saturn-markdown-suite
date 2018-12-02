@@ -27,7 +27,7 @@ export function activate(context: vscode.ExtensionContext) {
 
         const fileName = await vscode.window.showInputBox(
             {
-                placeHolder: 'camelCaseNamesAreBest',
+                placeHolder: 'kebab-case-names-are-best',
                 prompt: 'Name for the new markdown document',
                 validateInput: function validate(name: string): string | null {
                     if (!name) {
