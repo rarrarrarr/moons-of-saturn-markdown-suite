@@ -3,6 +3,11 @@ All notable changes to the "moons-of-saturn-markdown-suite" extension will be do
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.7
+
+* npm update to address a [flatmap-stream vulnerability](https://www.npmjs.com/advisories/737)
+* modify the flavor-text for new MoS filenames to be in kebab-case.
+
 ## 0.0.6
 
 * Move release notes from README.md to CHANGELOG.md
